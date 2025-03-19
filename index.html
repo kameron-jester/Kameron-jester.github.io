@@ -1,21 +1,89 @@
-<!DOCTYPE html>
+<!<!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
 <title>Page Title</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="styles.css">
 <style>
+    body {
+        font-family: Georgia, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FDE2E4;
+    }
+    nav {
+        background: #FAD2E1;
+        color: black;
+        padding: 10px;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    nav ul li {
+        margin-right: 20px;
+    }
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        background: #FFC2D1;
+        color: black;
+        margin: 20px;
+        border: 2px solid #333;
+        padding: 15px;
+    }
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #FFB3C6;
+        border: 1px solid #ddd;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        margin: 10px auto;
+        border: 3px solid #ddd;
+        padding: 5px;
+    }
+    footer {
+        text-align: center;
+        padding: 10px;
+        background: #FF8FAB;
+        color: black;
+        margin-top: 20px;
+        border-top: 3px solid #555;
+    }
 </style>
 <script src=""></script>
 
-
-	<!--- Code above this line will not be displayed on the browser --> 
-
-	<body>
-
-		<p> Hello world! My name is Kameron Jester </p>
-
-	</body>
-
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Favorite Movie</a></li>
+            <li><a href="cuisine.html">Favorite Cuisine</a></li>
+            <li><a href="book.html">Favorite Book</a></li>
+            <li><a href="about.html">About Me</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <h2>About Me</h2>
+        <p>Hi, I’m Kameron Jester, a passionate and driven marketing professional with a Bachelor’s degree in Communication Arts on the Communication Science and Rhetorical Studies track and a Digital Studies Certificate from the University of Wisconsin-Madison. I thrive on building meaningful connections, solving problems, and driving collaboration to achieve results. My outgoing nature, strategic mindset, and strong communication skills allow me to craft compelling brand narratives and engage audiences effectively.</p>
+        <img src="images/home.jpg" alt="A image of Kameron">
+    </main>
+    <footer>
+        <p>&copy; 2025 My Website | <a href="https://www.example.com" target="_blank">Visit My Favorite Website</a></p>
+    </footer>
+</body>
 </html>
-
